@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neutrals-100: #FAFBFF;
+  --color-neutrals-200: #EDEFFC;
+  --color-neutrals-400: #D7D8F5;
+  --color-neutrals-700: #141938;
+  --color-grey-10: #F8F9FF;
+  --color-grey-30: #CCD1EE;
+  --color-grey-100: #03050F;
+  --color-blueberry-600: #4F4FFF;
+  --color-red-rimac-500: #FF1C44;
+  --color-feedback-success-300: #38930D;
+  --color-green-aqua-400: #7DF0BA;
+  --color-neutrals-600: #7981B2;
+  --font-sonoma: Sonoma, sans-serif;
+}
+
+@layer base {
+  .bg-aqua {
+    @apply bg-gradient-to-r from-emerald-300 to-lime-400
+  }
+}
