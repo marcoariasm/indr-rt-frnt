@@ -3,7 +3,7 @@ import StepperList from "../components/StepperList";
 import { useFormData } from "../context/FormProvider";
 
 export default function Resumen() {
-  const [final, setFinal] = useState();
+  const [_, setFinal] = useState();
   const { data } = useFormData();
 
   useEffect(() => {

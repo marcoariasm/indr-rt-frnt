@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export function useFetch(url: string, options?: RequestInit) {
+export function useFetch(url: string) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [data, setData] = useState<any>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
